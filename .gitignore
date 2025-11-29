@@ -54,3 +54,9 @@ Thumbs.db
 /backend/dist-ssr
 /frontend/dist-ssr
 /backend/venv
+
+# Video files (too large for GitHub)
+*.mp4
+*.mov
+*.avi
+backend/documents/*.mp4
