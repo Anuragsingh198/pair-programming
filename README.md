@@ -1,6 +1,6 @@
 # Real-Time Pair Programming Application - Complete Documentation
 
-## 📋 Table of Contents
+## Table of Contents
 
 1. [Project Overview](#project-overview)
 2. [Project Flow & Usage](#project-flow--usage)
@@ -18,9 +18,13 @@ This is a **Real-Time Collaborative Code Editor** that allows multiple users to 
 - **Backend**: FastAPI REST API with WebSocket support
 - **Frontend**: React + TypeScript with Monaco Editor
 
+### Deployed Url
+
+[Check the  deployed site here ](https://pair-programming-beta-blond.vercel.app/)
+
 ### Demo Video
 
-📹 [Watch Demo Video](https://drive.google.com/file/d/1zFe-kYJxBC-v1qSYVhAjxvj3GL3ATHaG/view?usp=drive_link)
+[Watch Demo Video](https://drive.google.com/file/d/1zFe-kYJxBC-v1qSYVhAjxvj3GL3ATHaG/view?usp=drive_link)
 
 *Click the link above to view the full application demo*
 
@@ -32,11 +36,11 @@ This is a **Real-Time Collaborative Code Editor** that allows multiple users to 
 
 ### Key Features
 
-- ✅ Real-time code synchronization
-- ✅ Room-based collaboration
-- ✅ Autocomplete suggestions (rule-based)
-- ✅ User presence tracking
-- ✅ Monaco Editor integration
+- Real-time code synchronization
+- Room-based collaboration
+- Autocomplete suggestions (rule-based)
+- User presence tracking
+- Monaco Editor integration
 
 ### Tech Stack
 
@@ -421,10 +425,10 @@ const handleCodeChange = (value: string) => {
 ---
 ## Summary
 
-✅ **Project Overview**: Real-time collaborative code editor  
-✅ **Complete Flow**: Step-by-step user journey  
-✅ **File Structure**: Directory tree with explanations  
-✅ **Controller Logic**: Each controller explained  
-✅ **WebSocket Flow**: Complete connection flow with code  
-✅ **Frontend Redux**: State management setup  
-✅ **WebSocket Integration**: Frontend WebSocket implementation  
+**Project Overview**: Real-time collaborative code editor  
+**Complete Flow**: Step-by-step user journey  
+**File Structure**: Directory tree with explanations  
+**Controller Logic**: Each controller explained  
+**WebSocket Flow**: Complete connection flow with code  
+**Frontend Redux**: State management setup  
+**WebSocket Integration**: Frontend WebSocket implementation  
