@@ -7,9 +7,7 @@
 3. [File Structure](#file-structure)
 4. [Backend Documentation](#backend-documentation)
 5. [Frontend Documentation](#frontend-documentation)
-6. [Future Enhancements](#future-enhancements)
-7. [Code Improvements](#code-improvements)
-8. [Uploads Directory](#uploads-directory)
+6. [Uploads Directory](#uploads-directory)
 
 ---
 
