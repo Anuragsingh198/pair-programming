@@ -32,20 +32,20 @@ export interface AutocompleteResponse {
 
 export const roomService = {
   createRoom: async (roomName: string): Promise<CreateRoomResponse> => {
-    const response = await api.post<CreateRoomResponse>('/rooms', {
+    const response = await api.post<CreateRoomResponse>('/rooms/', {
       room_name: roomName,
     });
     return response.data;
   },
   getAllRooms: async (): Promise<RoomsListResponse> => {
-    const response = await api.get<RoomsListResponse>('/rooms');
+    const response = await api.get<RoomsListResponse>('/rooms/');
     return response.data;
   },
 };
 
 export const autocompleteService = {
   getSuggestions: async (query: string): Promise<string[]> => {
-    const response = await api.post<AutocompleteResponse>('/autocomplete', {
+    const response = await api.post<AutocompleteResponse>('/autocomplete/', {
       query: query,
     });
     return response.data.suggestions;
